@@ -1,0 +1,18 @@
+;;; build.el --- Native offline Elpaca builds -*- lexical-binding: t; -*-
+;; SPDX-License-Identifier: MIT
+(require 'json)
+(setq user-emacs-directory (file-name-as-directory (getenv "ELPACA_PURIFIER_STATE"))
+      after-init-time nil)
+(require 'elpaca-autoloads)
+(require 'elpaca)
+(setq elpaca-menu-functions '(elpaca-menu-lock-file)
+      elpaca-lock-file (getenv "ELPACA_PURIFIER_LOCK"))
+(elpaca-no-symlink-mode 1)
+(let ((json-array-type 'list) (json-object-type 'alist))
+  (dolist (recipe (json-read-file (getenv "ELPACA_PURIFIER_SELECTION")))
+    (eval (list 'elpaca (intern (alist-get 'name recipe))) t)))
+(elpaca-wait)
+(dolist (item (elpaca--queued))
+  (unless (eq (elpaca--status (cdr item)) 'finished)
+    (error "Native Elpaca build failed: %S %S" (car item) (elpaca<-log (cdr item)))))
+(copy-directory elpaca-builds-directory (getenv "ELPACA_PURIFIER_BUILDS") nil t t)

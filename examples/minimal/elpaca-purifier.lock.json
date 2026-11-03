@@ -1,0 +1,70 @@
+{
+  "entries": [
+    {
+      "git": {
+        "commitObject": {
+          "gitlinks": [],
+          "object": "dHJlZSAxZTY1YzIxODAwMjk2NmRmZDVjNjUyZjE3NzYxNDI5NmQ3ZTFlMzUzCnBhcmVudCBkM2E4NDAyMWRiZTQ4ZGJhNjNiNTJlZjc2NjU2NTFlMGNmMDJlOTE1CmF1dGhvciBCYXNpbCBMLiBDb250b3ZvdW5lc2lvcyA8YmFzaWxAY29udG92b3UubmV0PiAxNzg2Mzg0OTgyICswMjAwCmNvbW1pdHRlciBCYXNpbCBMLiBDb250b3ZvdW5lc2lvcyA8YmFzaWxAY29udG92b3UubmV0PiAxNzg2Mzg0OTgyICswMjAwCmdwZ3NpZyAtLS0tLUJFR0lOIFBHUCBTSUdOQVRVUkUtLS0tLQogCiBpUUl6QkFBQkNnQWRGaUVFRXorUVk0Vlh2b1QwMjZxeVdZUURCWXl2cUd3RkFtcDZFbHdBQ2drUVdZUURCWXl2CiBxR3kyTWhBQXZ3UVNxMmZ1UWlnMURoaGU3QTRydXVHd1NzNUxSc2ZHcGRqd3VSeGFOSDd0S1pNQml6ZXlMbjFxCiAyT0pYMVJMM1ZmZFdqN0VhY2NRdHkxNjZIQ0dDYmtHMnFWQ0xDZEFoVzc2VTFSeTRkdmpjb3dIWFBqSEk1aE9LCiBKeXVWZ1RCdld6TE1jVGlDb1pyM3lTTnRCT1JFZ0ZzdjVsMGFRWnNvTnBXUkd0T2VhWk5aaTVSTHZocGIrOHhRCiBVRnd3VCsxRmEzVUNFcGRLU0JWdnFNbFk3YWJqSGFWQUZHZEdCMGk0Q1NJOG1sOUUwK3dRWlY4ZFlhNFpQUTdoCiAvRzdYQjRmSjZ3MkhvTG9ucGFrbnZ1dVRRWGZ1amhJMU11elRkL2FXZ3VJTEZTUjVsQzNBWW5GQUpRUnV3aDZsCiA5Vi94aTRJSHpYMU9NSDdLTFU5QXRTZ3lNSUJ4R01pTW9BUEZ6UVBaZWFwa2tZZzhubk5iL0VWTmhtVVI2bDBxCiBmcnpkRnNqUEpLdGVmTkJ2YVI1SkVlUmFnOHhZNnBCOU1uNTN0c1d6S0lnYVp6blBLTUZVckdkMXIwMW1ta2llCiBoZUdGTzR4U2czN2VVSXhrRmdCNXJGVXNRWm96Q3pDd3pPcE42V1pwbW56SlprZW5WVktCeVNjSGJNM2dlY1ZaCiBiR294Smw5MU5OOXRjNGdPVFJ6SFVZcmNDdXJub0thNzg2S0ZZblB0Wnk4cUJySXZHRDVFbmw0YVc2cHdQTCtTCiBmUW5ya1U4bDBqUFRhTTFOWW1hVmdWVGRYczRJb0ZXRlgzRG1Ramd6YjJQTE83YWtpZFdZUFUrT2xQRCtXS3I1CiAwd013U21LODBiTFJGR3lWWHcwYS8ySHBtRnViWi91aGZwMlV5SEdYQ3lyTUtLVXBUVTg9CiA9VGJpTwogLS0tLS1FTkQgUEdQIFNJR05BVFVSRS0tLS0tCgo7ICogLmdpdGh1Yi93b3JrZmxvd3MvdGVzdC55bWw6IEJ1bXAgQ0kgdmVyc2lvbi4K"
+        },
+        "leaveDotGit": true,
+        "rev": "d746dd9edcb67a108818beb0cdc78dc1cb466832",
+        "submodules": false,
+        "url": "https://github.com/magnars/dash.el.git"
+      },
+      "hash": "sha256-t1vs+EbWwHx+cCYTQnoLoE3R+qou+cP2tn4lTazCZyU=",
+      "path": "dash"
+    },
+    {
+      "git": {
+        "commitObject": {
+          "gitlinks": [],
+          "object": "dHJlZSA5ZTQ2Y2U5YzZkNWZhNmI1NTA1Mzc1OGJmMDc2NTBlODhjYmEyNjc5CnBhcmVudCAxZTcwMjBkYzBkNGM1MmQzZGE5YmQ2MTBkNDMxY2FiMTNhYTAyZDhjCmF1dGhvciBMdWNpZW4gQ2FydGllci1UaWxldCA8bHVjaWVuQHBodW5kcmFrLmNvbT4gMTcyNzk1NTA3NiArMDIwMApjb21taXR0ZXIgTHVjaWVuIENhcnRpZXItVGlsZXQgPGx1Y2llbkBwaHVuZHJhay5jb20+IDE3Mjc5NTUwNzYgKzAyMDAKZ3Bnc2lnIC0tLS0tQkVHSU4gUEdQIFNJR05BVFVSRS0tLS0tCiAKIGlRSXpCQUFCQ0FBZEZpRUVLYlpPU3hXOXRZbkppTWJRTkhnRDZBYytyT0FGQW1iK2dKY0FDZ2tRTkhnRDZBYysKIHJPREpLeEFBalNtamxxL0hYSjU1LzBKR3ZZWmdpM2JOQi9aU1ZSUjBMM2VJemNuOWNQekNpY0pjd2dMNWdwQlcKIDdPVUpMMDdsMU1od1FTUFZXdWFXVVViSHZ6TTRHYlVjWHRVcyt4eHYvUEVJY0l1M29xdXRvTU9uNzZ2cnZKazYKIHV3ZnZXZ1dnSndWNmxZQXR3UG9RSGdJMDRaeEhzbWdKL2tiRzY1TjM5UVl1Rkw0U0lJN24vQThJa25JSWl0dDYKIHg0Qm1SeU9sdFExeXhQWkJLWjN2THErM1FTbFhmM21LUEN5aWVpWTRqMmkvSDgzdHF0cU5QeDJEZWVBM1pKaHkKIDY3bnplOEhacmoxLzQxOVFBU2RZc3Z1alFZejJvNkl0RmM2WmtWS1hKck1GVnFFNFhVS1NPOWpxTzhPME14dlYKIGJrUEhEUmtOSUVrUHpEN2hRSlByVjJWT3cwS0lrci8vcDhKMlJxcjU2SmdlWG50eEo1Mjg2SHlzZ2ZKby9SUTQKIEdLeVZIcWRuOGdOOVUxZkFIZlU3RmZHajM2Tk5yV1FGa01ySkcycERvcG9kUDZpeWRObDl1a0NHUmxZMVA2bzAKIG1TN0NaZFVmU1lNaTVRUW1GZEdlVk1YaUxGZ3pNemZTY1RhU1ErL0dBdUlZUk5nOWhRcXQxSCtmMUhMS25aM3EKIDRUSE8vOGNJaGdXd0F2a3ZKY1Y4NCsyWmJtalpKRHZzVFIrSSt5eVk1ci9Zb3pqWHMrUHJrdkJ5K091Q0I0OUYKIDlERDBDOEVMd0xTTnNOR1dYZkZwZisxN2M4aktaZmU1aVNZbTZiTVBITXJhU1o0OEQ0MkFrVTNJV1hiNXRSWFkKIHpucEsvNjNZd2pQeFlTa0MrZFNuS2k4emJTbnEyVWRLU0hFM0k1SjFaK0dXQlNCNThKND0KID15NkZ6CiAtLS0tLUVORCBQR1AgU0lHTkFUVVJFLS0tLS0KCnJlbGVhc2U6IGJ1bXAgdmVyc2lvbiB0byAwLjIxLjAK"
+        },
+        "leaveDotGit": true,
+        "rev": "931b6d0667fe03e7bf1c6c282d6d8d7006143c52",
+        "submodules": false,
+        "url": "https://github.com/rejeep/f.el.git"
+      },
+      "hash": "sha256-rDUl2oUlcnSjNbFZn9A/80RVk6neaTScw2kvh6FjmTE=",
+      "path": "f"
+    },
+    {
+      "git": {
+        "commitObject": {
+          "gitlinks": [],
+          "object": "dHJlZSAxYWNhMmJmZDQwNWNlNGQ3NGU5MWU1NmZhOTg2OTU2NTY1OTNhMDU5CnBhcmVudCAxZjc5YmNiNzQyYmY1NzA5NmRkNGIxZTRiNzkwM2QxN2Q3YTdhNDVmCmF1dGhvciBKYXNvbiBNaWxraW5zIDxqYXNvbm0yM0BnbWFpbC5jb20+IDE3ODU2MzI4NzQgKzA3MDAKY29tbWl0dGVyIEdpdEh1YiA8bm9yZXBseUBnaXRodWIuY29tPiAxNzg1NjMyODc0ICswNzAwCmdwZ3NpZyAtLS0tLUJFR0lOIFBHUCBTSUdOQVRVUkUtLS0tLQogCiB3c0ZjQkFBQkNBQVFCUUpxYnBocUNSQzFhUTd1dTVVaGxBQUF5U1VRQURRSGxoTkNFNTRMSUFFVS83QzNMcUdJCiBRaExxOTJ2MjZCeWNTZk5iMHFMdW50MlpqTk1obVlLWHFPd1BjQlFoM3NuK05Zb0VPT2lqWk1EenZnQ2x4bGMxCiBOSWdWTFB4bVI0emtuRTVZaU9aMkxBcUxOVUVRYVhyS21JZjl2akdVYVkyQyt6RFVIQVUzTnNqcGpMaUgrcWJwCiBtSVFVSjF6Y04vbDF1cXE3c2h2TlgyNTBKSXBSVmEwVXZhWWRXYVpXL2hWQ3R5OFdMa2kvZ0tWMHo4ZHFBbjdlCiBDM0FmbDRBNU1rR3dSSHJFVnVZbE5mdjhubGdTaUNwckFaNXg2M3N3eHBXY2RZNVg5TWtYeTRlQTMrREtKem50CiBScG85MEk2MWtJaFRFQ1hxYnNSa1FabmRYSnU4OGpZeFd3Qjllb0xLVW15VWo2UnlMUEFsUWJ5UlJGQVBJQ2JGCiBxRENPS2ZkblZRUHFWaXF5LzJIMGhkU1ZNeFFKWmFEc1lGUGdsbGp2UG1CbnNFWTlHS09tdmdPQWFkTyttNVQvCiBUZ2lKOUZFUGVnYU5ZQjZRekFNQVA5dTZpdjFZZEN5Yk53TTRZc0phWjViN0swOURPSVpUQ3U5QXJLeXFxaWhrCiB2QzVrRkFjQ0RRYkhIVm90NkU4WW5oV2ZreFFRUGY5ajhyeWdOL2N6aFRhME5OdlVhb2h2bW5yRG4yc0NFcjdyCiBjYVM1TXFhRnhJQzVoa1hKaGprSlZuL0lyL1dpRjFTbUpQZXZYeFdXZ3EwaWNYaG11alUreEVCay9JWFRwWjNUCiAxNmNjd1crcE05cjFpQzFiMEU2bDVHWjFkY2xPSEhEYS9OWGNMall5cUZIWE12QWYyT0VWcHF1MGUxckllSDBGCiBtR1UremtYYk1xbTJ0d2pzanVCTgogPXhKZjkKIC0tLS0tRU5EIFBHUCBTSUdOQVRVUkUtLS0tLQogCgoxLjEzLjEgQWRkIGxhdGVzdCByZWxlYXNlIGJhZGdlIHRvIFJFQURNRQoKQWRkZWQgYmFkZ2UgZm9yIGxhdGVzdCByZWxlYXNlIHRvIFJFQURNRS4="
+        },
+        "leaveDotGit": true,
+        "rev": "d7c04b84d03481a1ed62ee13dbe595224ccbe57c",
+        "submodules": false,
+        "url": "https://github.com/magnars/s.el.git"
+      },
+      "hash": "sha256-C6T1Fh0t0YvcoMbTQpa3iRIMM0MV0f5HaZDhvmi/YaA=",
+      "path": "s"
+    }
+  ],
+  "native": "((dash :source \"elpaca-menu-lock-file\" :recipe\n       (:package \"dash\" :fetcher github :repo \"magnars/dash.el\" :files\n\t\t (\"dash.el\" \"dash.texi\") :source \"MELPA\" :protocol\n\t\t https :inherit t :depth treeless :ref\n\t\t \"d746dd9edcb67a108818beb0cdc78dc1cb466832\"))\n (f :source \"elpaca-menu-lock-file\" :recipe\n    (:package \"f\" :fetcher github :repo \"rejeep/f.el\" :files\n\t      (\"*.el\" \"*.el.in\" \"dir\" \"*.info\" \"*.texi\" \"*.texinfo\"\n\t       \"doc/dir\" \"doc/*.info\" \"doc/*.texi\" \"doc/*.texinfo\"\n\t       \"lisp/*.el\" \"docs/dir\" \"docs/*.info\" \"docs/*.texi\"\n\t       \"docs/*.texinfo\"\n\t       (:exclude \".dir-locals.el\" \"test.el\" \"tests.el\"\n\t\t\t \"*-test.el\" \"*-tests.el\" \"LICENSE\" \"README*\"\n\t\t\t \"*-pkg.el\"))\n\t      :source \"MELPA\" :protocol https :inherit t :depth\n\t      treeless :ref \"931b6d0667fe03e7bf1c6c282d6d8d7006143c52\"))\n (s :source \"elpaca-menu-lock-file\" :recipe\n    (:package \"s\" :fetcher github :repo \"magnars/s.el\" :files\n\t      (\"*.el\" \"*.el.in\" \"dir\" \"*.info\" \"*.texi\" \"*.texinfo\"\n\t       \"doc/dir\" \"doc/*.info\" \"doc/*.texi\" \"doc/*.texinfo\"\n\t       \"lisp/*.el\" \"docs/dir\" \"docs/*.info\" \"docs/*.texi\"\n\t       \"docs/*.texinfo\"\n\t       (:exclude \".dir-locals.el\" \"test.el\" \"tests.el\"\n\t\t\t \"*-test.el\" \"*-tests.el\" \"LICENSE\" \"README*\"\n\t\t\t \"*-pkg.el\"))\n\t      :source \"MELPA\" :protocol https :inherit t :depth\n\t      treeless :ref \"d7c04b84d03481a1ed62ee13dbe595224ccbe57c\")))\n",
+  "purifier": "elpaca",
+  "recipes": [
+    {
+      "build": "dash",
+      "name": "dash",
+      "recipe": "(:package \"dash\" :fetcher github :repo \"magnars/dash.el\" :files (\"dash.el\" \"dash.texi\") :source \"MELPA\" :protocol https :inherit t :depth treeless)",
+      "repo": "dash"
+    },
+    {
+      "build": "f",
+      "name": "f",
+      "recipe": "(:package \"f\" :fetcher github :repo \"rejeep/f.el\" :files (\"*.el\" \"*.el.in\" \"dir\" \"*.info\" \"*.texi\" \"*.texinfo\" \"doc/dir\" \"doc/*.info\" \"doc/*.texi\" \"doc/*.texinfo\" \"lisp/*.el\" \"docs/dir\" \"docs/*.info\" \"docs/*.texi\" \"docs/*.texinfo\" (:exclude \".dir-locals.el\" \"test.el\" \"tests.el\" \"*-test.el\" \"*-tests.el\" \"LICENSE\" \"README*\" \"*-pkg.el\")) :source \"MELPA\" :protocol https :inherit t :depth treeless)",
+      "repo": "f"
+    },
+    {
+      "build": "s",
+      "name": "s",
+      "recipe": "(:package \"s\" :fetcher github :repo \"magnars/s.el\" :files (\"*.el\" \"*.el.in\" \"dir\" \"*.info\" \"*.texi\" \"*.texinfo\" \"doc/dir\" \"doc/*.info\" \"doc/*.texi\" \"doc/*.texinfo\" \"lisp/*.el\" \"docs/dir\" \"docs/*.info\" \"docs/*.texi\" \"docs/*.texinfo\" (:exclude \".dir-locals.el\" \"test.el\" \"tests.el\" \"*-test.el\" \"*-tests.el\" \"LICENSE\" \"README*\" \"*-pkg.el\")) :source \"MELPA\" :protocol https :inherit t :depth treeless)",
+      "repo": "s"
+    }
+  ],
+  "sdk": "5c0678fe51c8344028d2011608e9f9c9efcf1a7cc1f7949606a1963d4333c264",
+  "version": 1
+}
