@@ -61,7 +61,7 @@ let
           cp -rL ${tree}/. "$ELPACA_PURIFIER_STATE/elpaca/repos/"
           chmod -R u+w "$ELPACA_PURIFIER_STATE"
           ln -s ${core} "$ELPACA_PURIFIER_STATE/elpaca/repos/elpaca"
-          ${original}/bin/emacs -Q --batch -L ${core} -l ${../lisp/build.el}
+          ${original}/bin/emacs -Q --batch -L ${core} -l ${../../lisp/build.el}
       '';
   output =
     (writeText "elpaca-environment.json" (

@@ -106,7 +106,7 @@ def main_impl():
             "import "
             + json.dumps(
                 os.environ["ELPACA_PURIFIER_SDK"]
-                + "/lib/elpaca-purifier/nix/release.nix"
+                + "/lib/elpaca-purifier/pkgs/build-elpaca-project/release.nix"
             )
             + " {root="
             + json.dumps(str(root))

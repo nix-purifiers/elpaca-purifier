@@ -18,15 +18,15 @@
 stdenvNoCC.mkDerivation {
   pname = "elpaca-purifier";
   version = "0.1.0";
-  src = ../.;
+  src = ../..;
   nativeBuildInputs = [ makeWrapper ];
   dontBuild = true;
   installPhase = ''
     mkdir -p "$out/bin" "$out/lib/elpaca-purifier"
-    cp -r elpaca_purifier nix lisp native "$out/lib/elpaca-purifier/"
+    cp -r elpaca_purifier pkgs lib-overlays lisp native "$out/lib/elpaca-purifier/"
     install -m755 bin/elpaca-purifier "$out/bin/elpaca-purifier"
     for file in realize release; do
-      substituteInPlace "$out/lib/elpaca-purifier/nix/$file.nix" --replace-fail '@nixpkgs@' '${nixpkgsSrc}' --replace-fail '@purifier@' '${purifierSrc}'
+      substituteInPlace "$out/lib/elpaca-purifier/pkgs/build-elpaca-project/$file.nix" --replace-fail '@nixpkgs@' '${nixpkgsSrc}' --replace-fail '@purifier@' '${purifierSrc}'
     done
     wrapProgram "$out/bin/elpaca-purifier" \
       --prefix PATH : ${
