@@ -7,7 +7,11 @@ pkgs.lib.makeScope pkgs.newScope (scope: {
   original = pkgs.emacs-nox;
   # Release-table entry from upstream c16559abef25f0210b36dc1c789d2632d1b39d7f.
   originalCore = ((pkgs.emacsPackagesFor scope.original).elpaca).overrideAttrs (old: {
-    patches = (old.patches or [ ]) ++ [ ../native/emacs31-date.patch ];
+    # The pinned manager still requests MELPA's former master branch.
+    patches = (old.patches or [ ]) ++ [
+      ../native/emacs31-date.patch
+      ../native/melpa-main.patch
+    ];
   });
   core = pkgs.runCommand "elpaca-manager" { } ''
     mkdir -p "$out"
@@ -22,6 +26,7 @@ pkgs.lib.makeScope pkgs.newScope (scope: {
       emacs = toString scope.original.src;
       elpaca = toString scope.originalCore.src;
       managerPatch = builtins.hashFile "sha256" ../native/emacs31-date.patch;
+      melpaPatch = builtins.hashFile "sha256" ../native/melpa-main.patch;
       builder = builtins.hashFile "sha256" ../lisp/build.el;
       integration = builtins.hashFile "sha256" ../lisp/activate.el;
     }
