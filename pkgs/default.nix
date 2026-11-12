@@ -26,6 +26,6 @@ pkgs.lib.makeScope pkgs.newScope (scope: {
       integration = builtins.hashFile "sha256" ../lisp/activate.el;
     }
   );
-  cli = scope.callPackage ./cli.nix { inherit nixpkgsSrc purifierSrc; };
-  buildElpacaProject = scope.callPackage ./build-project.nix { };
+  cli = scope.callPackage ./cli/default.nix { inherit nixpkgsSrc purifierSrc; };
+  buildElpacaProject = scope.callPackage ./build-elpaca-project/default.nix { };
 })

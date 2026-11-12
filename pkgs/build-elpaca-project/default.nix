@@ -27,7 +27,9 @@
 }:
 let
   lock = purifier.checkLock (
-    import ./read-lock.nix { inherit lib; } { inherit src lockFile nativeLockFile; }
+    import ../../lib-overlays/default/read-lock.nix { inherit lib; } {
+      inherit src lockFile nativeLockFile;
+    }
   );
   prepared = import ./environment.nix scope { inherit lock fetchers; };
   source = lib.cleanSourceWith {
@@ -43,11 +45,11 @@ let
       ]);
   };
   driver = lib.fileset.toSource {
-    root = ../.;
+    root = ../..;
     fileset = lib.fileset.unions [
-      ../elpaca_purifier/layout.py
-      ../lisp/activate.el
-      ../native/check.py
+      ../../elpaca_purifier/layout.py
+      ../../lisp/activate.el
+      ../../native/check.py
     ];
   };
   data = writeText "elpaca-lock-data.json" (builtins.toJSON lock.data);

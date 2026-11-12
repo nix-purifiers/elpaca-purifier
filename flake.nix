@@ -18,7 +18,7 @@
       ];
       forAll = nixpkgs.lib.genAttrs systems;
       overlay = final: prev: {
-        elpaca-purifier = import ./nix/scope.nix {
+        elpaca-purifier = import ./pkgs/default.nix {
           pkgs = final;
           nixpkgsSrc = nixpkgs;
           purifierSrc = purifier;
@@ -44,7 +44,7 @@
           meta.description = "Lock native Elpaca packages";
         };
       });
-      lib.elpaca-purifier.readLock = import ./nix/read-lock.nix { lib = nixpkgs.lib; };
+      lib.elpaca-purifier = (nixpkgs.lib.extend (import ./lib-overlays/default)).elpaca-purifier;
       checks = forAll (
         system:
         let
